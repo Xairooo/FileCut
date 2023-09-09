@@ -1,0 +1,27 @@
+# FileCut
+
+FileCut is a simple command-line utility for cutting a file at a specified percentage position. It allows you to split a file into two parts based on the desired cut percentage. This can be useful for various tasks like splitting large files into smaller segments.
+
+## Usage
+
+1. **Drag and Drop**: To use FileCut, simply drag and drop the file you want to cut onto the application's executable file.
+
+2. **Input Percentage**: After providing the file as input, you'll be prompted to enter the cut position in percentage (e.g., 50 for splitting the file in half). Enter the desired percentage and press Enter.
+
+3. **Output File**: FileCut will create a new file with a modified name in the same directory as the input file. The modified name will include a numeric suffix to ensure uniqueness if files with similar names already exist.
+
+4. **Completion Message**: Once the operation is complete, you'll see a success message displaying the size of the newly created file.
+
+## Example
+
+Suppose you have a file named `example.txt` with a size of 1000 bytes, and you want to cut it at 30%. When you run FileCut and specify 30% as the cut position, it will create a new file named `example-1.txt` containing the first 30% (300 bytes) of the original file.
+
+
+## Acknowledgments
+
+Special thanks to the [helper] module for providing useful utility functions in this program.
+
+## Disclaimer
+
+This program is provided as-is and without warranty. Use it at your own risk. The author and contributors are not responsible for any data loss or damage caused by the use of this software.
+
